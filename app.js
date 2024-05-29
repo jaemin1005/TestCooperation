@@ -1,18 +1,5 @@
-const rl = require("readline");
-
-let obj = {
-  x : null,
-  y : null
-}
-
-const readLine = rl.createInterface({
-  input : process.stdin,
-  output : process.stdout
-});
+const Add = require("./add");
+const ReadLine = require("./Read");
 
 
-
-
-await readLine.question("숫자를 입력해주세요.", (answer) => {
-  console.log(answer);
-})
+ReadLine(Add);
