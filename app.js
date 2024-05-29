@@ -3,5 +3,4 @@ const multiple = require("./multiple");
 const ReadLine = require("./Read");
 
 
-ReadLine(Add);
-ReadLine(multiple);
+ReadLine(Add, multiple);
